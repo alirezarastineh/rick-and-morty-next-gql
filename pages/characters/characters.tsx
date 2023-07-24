@@ -10,7 +10,7 @@ import { CharactersResponse } from "../../interfaces/characters-interfaces";
 import CharacterCard from "../../components/pages-components/characters-page/character-card";
 import { useRouter } from "next/router";
 import ContentContainer from "../../components/shared/containers/content-container";
-import Pagination from "../../components/shared/pagination";
+import Pagination from "../../components/shared/pagination/pagination";
 
 const headContext: HeadContext = {
   title: "All Characters",

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import styled from "styled-components";
-import NavigationBar from "../components/shared/navigation-bar";
+import NavigationBar from "../components/shared/navigation-bar/navbar";
 import { HeadContext } from "../interfaces/head-interfaces";
 
 interface PageLayoutProps {

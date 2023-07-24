@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import React, { useCallback } from "react";
 import styled from "styled-components";
 import { Episode } from "../../../interfaces/episode-interfaces";
-import Chip from "../chip";
+import Chip from "../chip/chip";
 import SubTitle from "../titles/sub-title";
 
 interface EpisodeResultProps {
