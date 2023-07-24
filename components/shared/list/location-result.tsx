@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import React, { useCallback } from "react";
 import styled from "styled-components";
 import { Location } from "../../../interfaces/location-interfaces";
-import Chip from "../chip/chip";
+import Chip from "../chip";
 import SubTitle from "../titles/sub-title";
 
 interface LocationResultProps {

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useCallback, useMemo } from "react";
 import styled from "styled-components";
-import Chip from "../../components/shared/chip/chip";
+import Chip from "../../components/shared/chip";
 import ContentContainer from "../../components/shared/containers/content-container";
 import Title from "../../components/shared/titles/title";
 import graphqlClient from "../../gql/graphql-client";
